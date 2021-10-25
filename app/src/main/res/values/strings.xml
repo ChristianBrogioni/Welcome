@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Welcome</string>
+    <string name="lblInizio">Nome</string>
+    <string name="btnReset">Reset</string>
+    <string name="btnTest">Test</string>
+    <string name="btnPlay">Play</string>
+</resources>
