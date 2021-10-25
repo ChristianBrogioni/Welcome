@@ -36,8 +36,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void lanciaSeconda(View v){
+        String text= editText.getText().toString();
         Intent i= new Intent(getApplicationContext(), secondact.class);
-        i.putExtra("nome",editText.getText());
+        i.putExtra("nome",text);
         startActivity(i);
     }
 
